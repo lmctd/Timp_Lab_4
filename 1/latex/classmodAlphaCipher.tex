@@ -1,0 +1,82 @@
+\hypertarget{classmodAlphaCipher}{}\doxysection{Класс mod\+Alpha\+Cipher}
+\label{classmodAlphaCipher}\index{modAlphaCipher@{modAlphaCipher}}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmodAlphaCipher_a76a420025b3c08f72c9b996d83c6ff09}{mod\+Alpha\+Cipher}} (const std\+::string \&skey)
+\begin{DoxyCompactList}\small\item\em Конструктор для создания объекта, хранящего в себе ключ шифрования \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classmodAlphaCipher_ab855d6b2ba63a70d84abc8b15700da63}{encrypt}} (const std\+::string \&open\+\_\+text)
+\begin{DoxyCompactList}\small\item\em Зашифрование \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classmodAlphaCipher_af1f0fa8ec93df56aa7657494de2a3f00}{decrypt}} (const std\+::string \&cipher\+\_\+text)
+\begin{DoxyCompactList}\small\item\em Зашифрование \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+\begin{DoxyAuthor}{Автор}
+Янгуляева А.\+Р 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+29.\+05.\+2021 
+\end{DoxyDate}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classmodAlphaCipher_a76a420025b3c08f72c9b996d83c6ff09}\label{classmodAlphaCipher_a76a420025b3c08f72c9b996d83c6ff09}} 
+\index{modAlphaCipher@{modAlphaCipher}!modAlphaCipher@{modAlphaCipher}}
+\index{modAlphaCipher@{modAlphaCipher}!modAlphaCipher@{modAlphaCipher}}
+\doxysubsubsection{\texorpdfstring{modAlphaCipher()}{modAlphaCipher()}}
+{\footnotesize\ttfamily mod\+Alpha\+Cipher\+::mod\+Alpha\+Cipher (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{skey }\end{DoxyParamCaption})}
+
+
+
+Конструктор для создания объекта, хранящего в себе ключ шифрования 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em text} & Открытый текст на русском языке @warnings Текс не должен быть пустоц строкой и не должен содержать пробелы. В тексте могут содержаться знаки перпинания и цифры. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classmodAlphaCipher_af1f0fa8ec93df56aa7657494de2a3f00}\label{classmodAlphaCipher_af1f0fa8ec93df56aa7657494de2a3f00}} 
+\index{modAlphaCipher@{modAlphaCipher}!decrypt@{decrypt}}
+\index{decrypt@{decrypt}!modAlphaCipher@{modAlphaCipher}}
+\doxysubsubsection{\texorpdfstring{decrypt()}{decrypt()}}
+{\footnotesize\ttfamily std\+::string mod\+Alpha\+Cipher\+::decrypt (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{cipher\+\_\+text }\end{DoxyParamCaption})}
+
+
+
+Зашифрование 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em text} & Зашифрованный текст на русском языке @warnings Текс не должен быть пустоц строкой и не должен содержать пробелы. В тексте могут содержаться знаки перпинания и цифры. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+result Зашифрованный текст 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodAlphaCipher_ab855d6b2ba63a70d84abc8b15700da63}\label{classmodAlphaCipher_ab855d6b2ba63a70d84abc8b15700da63}} 
+\index{modAlphaCipher@{modAlphaCipher}!encrypt@{encrypt}}
+\index{encrypt@{encrypt}!modAlphaCipher@{modAlphaCipher}}
+\doxysubsubsection{\texorpdfstring{encrypt()}{encrypt()}}
+{\footnotesize\ttfamily std\+::string mod\+Alpha\+Cipher\+::encrypt (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{open\+\_\+text }\end{DoxyParamCaption})}
+
+
+
+Зашифрование 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em text} & Открытый текст на русском языке @warnings Текс не должен быть пустоц строкой и не должен содержать пробелы. В тексте могут содержаться знаки перпинания и цифры. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+result Зашифрованный текст 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{ZAD__1_8cpp}{Z\+A\+D\+\_\+1.\+cpp}}\end{DoxyCompactItemize}
